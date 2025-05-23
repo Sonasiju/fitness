@@ -12,7 +12,7 @@ import { useToast } from "@/components/ui/use-toast"
 import { Shield, Send } from "lucide-react"
 
 export function AnonymousForm() {
-  const [concern, setConcern] = useState("")\
+  const [concern, setConcern] = useState("")
   const [category, setCategory] = useState  {
   const [concern, setConcern] = useState("")
   const [category, setCategory] = useState("")
