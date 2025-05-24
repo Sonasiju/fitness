@@ -47,7 +47,7 @@ cd student-engagement-platform
 Install dependencies:
 
 npm install
-# or
+ or
 yarn install
 
 Set up environment variables:
@@ -59,7 +59,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 Run development server:
 
 npm run dev
-# or
+or
 yarn dev
 
 
