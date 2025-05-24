@@ -46,26 +46,27 @@ cd student-engagement-platform
 
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 # or
 yarn install
-Setup environment variables:
 
-Create a .env.local file in the root directory and add:
+Set up environment variables:
+Create .env.local file with:
 
-ini
-Copy
-Edit
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-Run the development server:
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 
-bash
-Copy
-Edit
+Run development server:
+
 npm run dev
 # or
 yarn dev
+
+
+Open your browser:
+
+http://localhost:3000
+
+
+
+
