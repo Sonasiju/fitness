@@ -43,3 +43,29 @@ Clone the repository:
 git clone https://github.com/Sonasiju/student-engagement-platform.git
 
 cd student-engagement-platform
+
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Setup environment variables:
+
+Create a .env.local file in the root directory and add:
+
+ini
+Copy
+Edit
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+Run the development server:
+
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
