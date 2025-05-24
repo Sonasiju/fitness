@@ -38,32 +38,32 @@ Supabase account
 
 🔧 Installation
 
-Clone the repository:
+1.Clone the repository:
 
 git clone https://github.com/Sonasiju/student-engagement-platform.git
 
 cd student-engagement-platform
 
-Install dependencies:
+2.Install dependencies:
 
 npm install
  or
 yarn install
 
-Set up environment variables:
+3.Set up environment variables:
 Create .env.local file with:
 
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 
-Run development server:
+4.Run development server:
 
 npm run dev
 or
 yarn dev
 
 
-Open your browser:
+5.Open your browser:
 
 http://localhost:3000
 
